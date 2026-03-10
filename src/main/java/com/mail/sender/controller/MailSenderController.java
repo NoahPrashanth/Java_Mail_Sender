@@ -18,7 +18,7 @@ public class MailSenderController {
 		this.service = service;
 	}
 	
-	//@CrossOrigin(origins = "https://finytive-lyn4.vercel.app")
+	//@CrossOrigin(origins = "url")
 	@PostMapping("/send")
 	public ResponseEntity<String> getResumeAndSendMail(
 			@RequestParam String name, @RequestParam String email,

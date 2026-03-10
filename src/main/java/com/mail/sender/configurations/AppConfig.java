@@ -14,7 +14,7 @@ public class AppConfig {
 //	 @Override
 //	  public void addCorsMappings(CorsRegistry registry) {
 //	       registry.addMapping("/**")
-//	       .allowedOrigins("https://finytive-lyn4.vercel.app")
+//	       .allowedOrigins("url")
 //	       .allowedMethods("GET", "POST", "PUT", "DELETE")
 //	       .allowCredentials(true);
 //	  }
